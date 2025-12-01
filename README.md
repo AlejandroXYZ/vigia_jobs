@@ -78,6 +78,10 @@ Crea un archivo .env en la raíz del proyecto y agrega tus credenciales:
 **Nota: Puedes obtener tu chat_id hablando con @userinfobot en Telegram.**
 
 
+
+![Captura](captura.jpg)
+
+
 ## ▶️ Uso
 
 Simplemente ejecuta el archivo principal:
