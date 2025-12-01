@@ -75,22 +75,7 @@ Crea un archivo .env en la raíz del proyecto y agrega tus credenciales:
 	Token=TU_TOKEN_DE_TELEGRAM_AQUI
 	chat_id=TU_ID_DE_TELEGRAM_AQUI
 
-
 **Nota: Puedes obtener tu chat_id hablando con @userinfobot en Telegram.**
-
-
-
-## 📂 Estructura del Proyecto
-
-├── main.py              # Punto de entrada (Orquestador)
-├── spider_base.py       # Clase Padre (Lógica de DB, Hashing y Template)
-├── telegram.py          # Módulo de notificaciones
-├── spiders/             # Colección de Arañas
-│   ├── computrabajo.py  # Lógica Dinámica
-│   ├── linkedin.py      # Lógica Estática
-│   └── workana.py       # Lógica Dinámica
-└── empleos.db           # Base de datos (Generada automáticamente)
-
 
 
 ## ▶️ Uso
