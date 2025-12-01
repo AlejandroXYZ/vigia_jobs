@@ -46,9 +46,7 @@ class Araña(ABC):
     
 
     async def guardar_datos(self,cursor,titulo,url,Descripcion):
-        print("Generando Hash")
         hash_id = self.generar_hash(titulo,url)
-        print("Insertando Datos")
         cursor.execute("""
         INSERT OR IGNORE into Empleos(hash_id,Titulo,URL,Descripcion,Sitio) VALUES (?,?,?,?,?);
         """, (hash_id,titulo,url,Descripcion,self.nombre))
@@ -59,7 +57,6 @@ class Araña(ABC):
             
 
     async def db(self,titulo:str,url:str,Descripcion:Any):
-        print("Conectando la base de datos")
         connection = sql.connect("empleos.db")
         cursor = connection.cursor()
         fue_new = await self.guardar_datos(cursor,titulo,url,Descripcion)

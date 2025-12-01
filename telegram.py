@@ -2,14 +2,11 @@ from dotenv import load_dotenv
 from aiogram import Bot
 import os
 import asyncio
-import logging
-
-logging.basicConfig(level=logging.DEBUG)
 
 load_dotenv()
 
 Token: str = os.getenv("Token")
-id_chat = os.getenv("chat_id") 
+id_chat = int(os.getenv("id_chat")) 
 
 async def sender(titulo, url):
     if not Token:

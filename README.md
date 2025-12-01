@@ -4,6 +4,9 @@ Un sistema inteligente de Web Scraping que monitorea múltiples portales de empl
 alertas en tiempo real a Telegram.
 
 
+![Captura de pantalla](screen.jpg)
+
+
 
 ## 📋 Descripción
 
@@ -29,6 +32,8 @@ para evitar bloqueos en sitios protegidos (como Computrabajo).
 **🧩 Diseño Modular:** Fácil de escalar. Agregar un nuevo portal es tan simple como crear una nueva clase
 hija.
 
+
+![screen2](screen1.jpg)
 
 
 ## 🛠️ Tecnologías Utilizadas

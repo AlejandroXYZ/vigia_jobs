@@ -3,4 +3,4 @@ cffi==2.0.0
 lxml==6.0.2
 aiogram
 dotenv
-
+fake-useragent
